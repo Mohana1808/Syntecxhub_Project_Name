@@ -7,7 +7,7 @@ const WeatherApp = () => {
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  const API_KEY = "35617cf1e412137e0f933ef992a56850";
+  const API_KEY = "";
 
   // Fetch weather on component mount (geolocation)
   useEffect(() => {
